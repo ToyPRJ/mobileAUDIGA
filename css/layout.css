@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 0.8em; }
+
+.GnB {
+  background-color: #4CAF50;
+  display: block;
+  height: 60px;
+  position: fixed;
+  width: 425px;
+  z-index: 2000; }
+
+.mainAlbum {
+  display: block;
+  padding-top: 60px;
+  position: relative;
+  width: 425px; }
+  .mainAlbum > .album-background {
+    background-color: #5F5F5F;
+    height: 200px;
+    opacity: 0.9;
+    position: absolute;
+    top: 60px;
+    width: 100%; }
+  .mainAlbum > .album {
+    background-image: url(../img/japan01.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    z-index: 100; }
+
+.mainContent {
+  background-color: #F1F1F1;
+  display: block;
+  margin-top: -60px;
+  width: 425px;
+  padding: 20px 20px;
+  z-index: 1000;
+  position: relative;
+  margin-bottom: 60px; }
+  .mainContent .card {
+    width: 100%;
+    height: auto;
+    background-color: #D6D6D6;
+    margin-bottom: 20px;
+    padding: 20px; }
+    .mainContent .card:last-child {
+      margin-bottom: 0; }
+
+.footer {
+  background-color: #FF6046;
+  display: block;
+  height: 60px;
+  position: fixed;
+  width: 425px;
+  bottom: 0px;
+  z-index: 2000; }
+
+/*# sourceMappingURL=layout.css.map */
