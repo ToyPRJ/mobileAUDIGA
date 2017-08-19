@@ -13,11 +13,8 @@ html, body {
 
 .GnB{
 	background-color: #4CAF50;
-	display: block;
-	height: 60px;
-	position: fixed;
-	width: 425px;
-	z-index: 2000;
+	// display: block;
+	// height: 60px;
 }
 .mainAlbum{
 	display: block;
@@ -53,7 +50,7 @@ html, body {
 	margin-top: -60px;
 	width: 425px;
 	padding: 20px 20px;
-	z-index: 1000;
+	z-index: 200;
 	position: relative;
     margin-bottom: 60px;
 
@@ -74,10 +71,10 @@ html, body {
 
 .footer{
 	background-color: #FF6046;
-	display: block;
-	height: 60px;
-	position: fixed;
-	width: 425px;
-	bottom: 0px;
-	z-index: 2000;
+	// display: block;
+	// height: 60px;
+	// position: fixed;
+	// width: 425px;
+	// bottom: 0px;
+	// z-index: 2000;
 }

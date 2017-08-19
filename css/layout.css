@@ -9,12 +9,7 @@ html, body {
   font-size: 0.8em; }
 
 .GnB {
-  background-color: #4CAF50;
-  display: block;
-  height: 60px;
-  position: fixed;
-  width: 425px;
-  z-index: 2000; }
+  background-color: #4CAF50; }
 
 .mainAlbum {
   display: block;
@@ -44,7 +39,7 @@ html, body {
   margin-top: -60px;
   width: 425px;
   padding: 20px 20px;
-  z-index: 1000;
+  z-index: 200;
   position: relative;
   margin-bottom: 60px; }
   .mainContent .card {
@@ -57,12 +52,6 @@ html, body {
       margin-bottom: 0; }
 
 .footer {
-  background-color: #FF6046;
-  display: block;
-  height: 60px;
-  position: fixed;
-  width: 425px;
-  bottom: 0px;
-  z-index: 2000; }
+  background-color: #FF6046; }
 
 /*# sourceMappingURL=layout.css.map */
