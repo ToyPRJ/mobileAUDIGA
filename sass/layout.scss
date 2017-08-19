@@ -17,18 +17,16 @@ html, body {
 	// height: 60px;
 }
 .mainAlbum{
-	display: block;
-	padding-top: 60px;
-	position: relative;
-	width: 425px; 
+	background-color: black;
+
 
 	>.album-background{
-		background-color: #5F5F5F;
-		height: 200px;
-		opacity: 0.9;
-		position: absolute;
-		top: 60px;
-		width: 100%;
+		// background-color: #5F5F5F;
+		// height: 200px;
+		// opacity: 0.9;
+		// position: absolute;
+		// top: 60px;
+		// width: 100%;
 	}
 	>.album{
 	  background-image: url(../img/japan01.jpeg);
@@ -43,16 +41,26 @@ html, body {
 }
 
 
+.carousel-item{
+	height: 200px;
+	background-color: #F1F1F1;
+
+	>img{
+		width: auto;
+		height: auto;
+	}
+}
+
 
 .mainContent{
 	background-color: #F1F1F1;
 	display: block;
-	margin-top: -60px;
+	// margin-top: -60px;
 	width: 425px;
-	padding: 20px 20px;
+	// padding: 20px 20px;
 	z-index: 200;
 	position: relative;
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
 
 	.card{
 		width: 100%;
