@@ -23,6 +23,17 @@ html, body {
   margin-top: -30px; }
   .card-section .card {
     margin-bottom: 20px; }
+  .card-section .card-title {
+    font-size: 18px; }
+  .card-section .card-profile {
+    background-color: black;
+    background-image: url(../img/juddy.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px; }
 
 .mainContent {
   margin-top: 60px;
