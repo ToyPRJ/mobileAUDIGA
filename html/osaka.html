@@ -14,10 +14,9 @@
 </head>
 <body>
 	<div class="container-fluid fixed-top GnB">
-		<div class="row">
-			<div class="col-md-1">X버튼 이미지</div>
-			<div class="col-md-9">지금 앱을 다운로드 하세요</div>
-			<div class="col-md-2">다운로드 링크</div>
+		<div class="container">
+			<div class=""><span class="cancel-button">X</span>지금 앱을 다운로드 하세요<button type="button" class="btn btn-light float-right">다운로드</button></div>
+
 		</div>
 	</div>
 	<div class="container mx-auto mainContent">
@@ -195,6 +194,14 @@
 			// $('.folding').slideToggle(500);
 			console.log($('.folding'));
 			$('.folding').slideToggle();
+		})
+
+		$('.cancel-button').click(function(e){
+			// console.log($(this).parents('.container-fluid'));
+			$(this).parents('.container-fluid').fadeOut(300, function(){
+					$('.mainContent').css("margin-top","0");
+			});
+			
 		})
 	</script>
 </body>

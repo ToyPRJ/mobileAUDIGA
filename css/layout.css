@@ -11,7 +11,20 @@ html, body {
 
 .GnB {
   background-color: #4CAF50;
-  height: 60px; }
+  height: 60px;
+  font-size: 2.4em; }
+  .GnB > div > div {
+    padding-top: 6px; }
+    .GnB > div > div > button {
+      margin-top: 8px; }
+  .GnB .cancel-button {
+    width: 16px;
+    height: 16px;
+    padding-right: 12px;
+    color: black;
+    cursor: pointer; }
+    .GnB .cancel-button:hover {
+      color: blue; }
 
 .carousel-item {
   height: 200px;
@@ -105,6 +118,13 @@ html, body {
 
 .footer {
   background-color: #FF6046;
-  height: 60px; }
+  height: 60px;
+  font-size: 2.4em; }
+  .footer .cost {
+    text-align: center;
+    padding-top: 6px;
+    cursor: pointer; }
+    .footer .cost:hover {
+      color: blue; }
 
 /*# sourceMappingURL=layout.css.map */

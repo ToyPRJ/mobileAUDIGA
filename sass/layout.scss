@@ -15,6 +15,29 @@ html, body {
 	// display: block;
 	background-color: #4CAF50;
 	height: 60px;
+	font-size: 2.4em;
+
+	>div>div{
+		padding-top: 6px;
+
+		>button{
+			margin-top: 8px;
+		}
+	}
+
+	.cancel-button{
+		width: 16px;
+		height: 16px;
+		padding-right: 12px;
+		// background-repeat: no-repeat;
+		// background-position: center;
+		// background-image: url(../img/cancel.png);
+		color: black;
+		cursor: pointer;
+		&:hover{
+			color: blue;
+		}
+	}
 }
 
 .carousel-item{
@@ -147,4 +170,15 @@ html, body {
 	// z-index: 2000;
 	background-color: #FF6046;
 	height: 60px;
+	font-size: 2.4em;
+
+	.cost{
+		text-align: center;
+		padding-top: 6px;
+		cursor: pointer;
+
+		&:hover{
+			color: blue;
+		}
+	}
 }
