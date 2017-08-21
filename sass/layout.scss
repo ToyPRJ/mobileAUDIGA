@@ -32,7 +32,12 @@ html, body {
 
 	.card{
 		margin-bottom: 20px;
+
+		&:first-of-type{
+			padding-bottom: 2.4em;
+		}
 	}
+
 	.card-title{
 		font-size: 18px;
 	}
@@ -79,6 +84,40 @@ html, body {
 
 		ul>li{
 			list-style: none;
+		}
+	}
+
+	.card-summary{
+		position: absolute;
+		bottom: 0px;
+		// background-color: #FF6046;
+		>.summary-point{
+			height: 3.6em;
+			padding-top: 0.6em;
+			padding-left: 2.4em;
+			position: relative;
+			>span{
+				width: 1.6em;
+				height: 1.6em;
+				position: absolute;
+				top: 0.4em;
+				left: 0;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+		}
+		.placeholer{
+			background-image: url(../img/placeholder.png);
+		}
+		.stopwatch{
+			background-image: url(../img/stopwatch.png);
+		}
+		.microphone{
+			background-image: url(../img/microphone.png);
+		}
+		.like{
+			background-image: url(../img/like.png);
 		}
 	}
 }

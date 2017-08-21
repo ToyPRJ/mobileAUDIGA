@@ -24,6 +24,8 @@ html, body {
   margin-top: -30px; }
   .card-section .card {
     margin-bottom: 20px; }
+    .card-section .card:first-of-type {
+      padding-bottom: 2.4em; }
   .card-section .card-title {
     font-size: 18px; }
   .card-section .card-profile {
@@ -64,6 +66,31 @@ html, body {
     /* Or a color you prefer */ }
   .card-section .card-course ul > li {
     list-style: none; }
+  .card-section .card-summary {
+    position: absolute;
+    bottom: 0px; }
+    .card-section .card-summary > .summary-point {
+      height: 3.6em;
+      padding-top: 0.6em;
+      padding-left: 2.4em;
+      position: relative; }
+      .card-section .card-summary > .summary-point > span {
+        width: 1.6em;
+        height: 1.6em;
+        position: absolute;
+        top: 0.4em;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; }
+    .card-section .card-summary .placeholer {
+      background-image: url(../img/placeholder.png); }
+    .card-section .card-summary .stopwatch {
+      background-image: url(../img/stopwatch.png); }
+    .card-section .card-summary .microphone {
+      background-image: url(../img/microphone.png); }
+    .card-section .card-summary .like {
+      background-image: url(../img/like.png); }
 
 .mainContent {
   margin-top: 60px;
