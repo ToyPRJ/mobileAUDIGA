@@ -62,6 +62,25 @@ html, body {
 		>a.on {color:#FFEB3B;}
 
 	}
+
+	.card-course{
+		>ul>li:before{
+			content: "•"; /* Insert content that looks like bullets */
+		    padding-right: 8px;
+		    color: blue; /* Or a color you prefer */
+		}
+		
+		>ul>li>ul>li:before{
+			content: "•"; /* Insert content that looks like bullets */
+		    margin-left: 16px;
+		    padding-right: 8px;
+		    color: red; /* Or a color you prefer */
+		}
+
+		ul>li{
+			list-style: none;
+		}
+	}
 }
 
 

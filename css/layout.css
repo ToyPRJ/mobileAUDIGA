@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +49,21 @@ html, body {
       margin-left: 0; }
     .card-section .star_rating > a.on {
       color: #FFEB3B; }
+  .card-section .card-course > ul > li:before {
+    content: "•";
+    /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: blue;
+    /* Or a color you prefer */ }
+  .card-section .card-course > ul > li > ul > li:before {
+    content: "•";
+    /* Insert content that looks like bullets */
+    margin-left: 16px;
+    padding-right: 8px;
+    color: red;
+    /* Or a color you prefer */ }
+  .card-section .card-course ul > li {
+    list-style: none; }
 
 .mainContent {
   margin-top: 60px;
