@@ -46,6 +46,22 @@ html, body {
 		height: 30px;
 		width: 30px;
 	}
+
+	.star_rating {
+		font-size:0; letter-spacing:-4px;
+		
+		>a {
+		    font-size:22px;
+		    letter-spacing:0;
+		    display:inline-block;
+		    margin-left:5px;
+		    color:#ccc;
+		    text-decoration:none;
+		}
+		>a:first-child {margin-left:0;}
+		>a.on {color:#FFEB3B;}
+
+	}
 }
 
 

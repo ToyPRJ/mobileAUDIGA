@@ -34,6 +34,20 @@ html, body {
     border-radius: 15px;
     height: 30px;
     width: 30px; }
+  .card-section .star_rating {
+    font-size: 0;
+    letter-spacing: -4px; }
+    .card-section .star_rating > a {
+      font-size: 22px;
+      letter-spacing: 0;
+      display: inline-block;
+      margin-left: 5px;
+      color: #ccc;
+      text-decoration: none; }
+    .card-section .star_rating > a:first-child {
+      margin-left: 0; }
+    .card-section .star_rating > a.on {
+      color: #FFEB3B; }
 
 .mainContent {
   margin-top: 60px;
