@@ -26,95 +26,93 @@ html, body {
     .GnB .cancel-button:hover {
       color: blue; }
 
-.carousel-item {
-  height: 200px;
-  background-color: #F1F1F1; }
-  .carousel-item > img {
-    width: 100px;
-    height: 200px; }
-
-.card-section {
-  margin-top: -30px; }
-  .card-section .card {
-    margin-bottom: 20px; }
-    .card-section .card:first-of-type {
-      padding-bottom: 2.4em; }
-  .card-section .card-title {
-    font-size: 18px; }
-  .card-section .card-profile {
-    background-color: black;
-    background-image: url(../img/juddy.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-    height: 30px;
-    width: 30px; }
-  .card-section .star_rating {
-    font-size: 0;
-    letter-spacing: -4px; }
-    .card-section .star_rating > a {
-      font-size: 22px;
-      letter-spacing: 0;
-      display: inline-block;
-      margin-left: 5px;
-      color: #ccc;
-      text-decoration: none; }
-    .card-section .star_rating > a:first-child {
-      margin-left: 0; }
-    .card-section .star_rating > a.on {
-      color: #FFEB3B; }
-  .card-section .card-course > ul > li:before {
-    content: "•";
-    /* Insert content that looks like bullets */
-    padding-right: 8px;
-    color: blue;
-    /* Or a color you prefer */ }
-  .card-section .card-course > ul > li > ul > li:before {
-    content: "•";
-    /* Insert content that looks like bullets */
-    margin-left: 16px;
-    padding-right: 8px;
-    color: red;
-    /* Or a color you prefer */ }
-  .card-section .card-course ul > li {
-    list-style: none; }
-  .card-section .card-map {
-    width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-image: url(../img/osaka_course.png); }
-  .card-section .card-summary {
-    position: absolute;
-    bottom: 0px; }
-    .card-section .card-summary > .summary-point {
-      height: 3.6em;
-      padding-top: 0.6em;
-      padding-left: 2.4em;
-      position: relative; }
-      .card-section .card-summary > .summary-point > span {
-        width: 1.6em;
-        height: 1.6em;
-        position: absolute;
-        top: 0.4em;
-        left: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; }
-    .card-section .card-summary .placeholer {
-      background-image: url(../img/placeholder.png); }
-    .card-section .card-summary .stopwatch {
-      background-image: url(../img/stopwatch.png); }
-    .card-section .card-summary .microphone {
-      background-image: url(../img/microphone.png); }
-    .card-section .card-summary .like {
-      background-image: url(../img/like.png); }
-
 .mainContent {
   margin-top: 60px;
   margin-bottom: 60px; }
+  .mainContent .carousel-item {
+    height: 200px;
+    background-color: #F1F1F1; }
+    .mainContent .carousel-item > img {
+      width: 100px;
+      height: 200px; }
+  .mainContent .card-section {
+    margin-top: -30px; }
+    .mainContent .card-section .card {
+      margin-bottom: 20px; }
+      .mainContent .card-section .card:first-of-type {
+        padding-bottom: 2.4em; }
+    .mainContent .card-section .card-title {
+      font-size: 18px; }
+    .mainContent .card-section .card-profile {
+      background-color: black;
+      background-image: url(../img/juddy.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 15px;
+      height: 30px;
+      width: 30px; }
+    .mainContent .card-section .star_rating {
+      font-size: 0;
+      letter-spacing: -4px; }
+      .mainContent .card-section .star_rating > a {
+        font-size: 22px;
+        letter-spacing: 0;
+        display: inline-block;
+        margin-left: 5px;
+        color: #ccc;
+        text-decoration: none; }
+      .mainContent .card-section .star_rating > a:first-child {
+        margin-left: 0; }
+      .mainContent .card-section .star_rating > a.on {
+        color: #FFEB3B; }
+    .mainContent .card-section .card-course > ul > li:before {
+      content: "•";
+      /* Insert content that looks like bullets */
+      padding-right: 8px;
+      color: blue;
+      /* Or a color you prefer */ }
+    .mainContent .card-section .card-course > ul > li > ul > li:before {
+      content: "•";
+      /* Insert content that looks like bullets */
+      margin-left: 16px;
+      padding-right: 8px;
+      color: red;
+      /* Or a color you prefer */ }
+    .mainContent .card-section .card-course ul > li {
+      list-style: none; }
+    .mainContent .card-section .card-map {
+      width: 100%;
+      height: 300px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-image: url(../img/osaka_course.png); }
+    .mainContent .card-section .card-summary {
+      position: absolute;
+      bottom: 0px; }
+      .mainContent .card-section .card-summary > .summary-point {
+        height: 3.6em;
+        padding-top: 0.6em;
+        padding-left: 2.4em;
+        position: relative; }
+        .mainContent .card-section .card-summary > .summary-point > span {
+          width: 1.6em;
+          height: 1.6em;
+          position: absolute;
+          top: 0.4em;
+          left: 0;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+      .mainContent .card-section .card-summary .placeholer {
+        background-image: url(../img/placeholder.png); }
+      .mainContent .card-section .card-summary .stopwatch {
+        background-image: url(../img/stopwatch.png); }
+      .mainContent .card-section .card-summary .microphone {
+        background-image: url(../img/microphone.png); }
+      .mainContent .card-section .card-summary .like {
+        background-image: url(../img/like.png); }
 
 .footer {
   background-color: #FF6046;

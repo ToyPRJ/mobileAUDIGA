@@ -40,124 +40,241 @@ html, body {
 	}
 }
 
-.carousel-item{
-	height: 200px;
-	background-color: #F1F1F1;
+// .carousel-item{
+// 	height: 200px;
+// 	background-color: #F1F1F1;
 
-	>img{
-		width: 100px;
-		height: 200px;
-	}
-}
+// 	>img{
+// 		width: 100px;
+// 		height: 200px;
+// 	}
+// }
 
-.card-section{
-	margin-top: -30px;
+// .card-section{
+// 	margin-top: -30px;
 
-	.card{
-		margin-bottom: 20px;
+// 	.card{
+// 		margin-bottom: 20px;
 
-		&:first-of-type{
-			padding-bottom: 2.4em;
-		}
-	}
+// 		&:first-of-type{
+// 			padding-bottom: 2.4em;
+// 		}
+// 	}
 
-	.card-title{
-		font-size: 18px;
-	}
-	.card-profile{
-		background-color: black;
-		background-image: url(../img/juddy.jpeg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-radius: 15px;
-		height: 30px;
-		width: 30px;
-	}
+// 	.card-title{
+// 		font-size: 18px;
+// 	}
+// 	.card-profile{
+// 		background-color: black;
+// 		background-image: url(../img/juddy.jpeg);
+// 		background-position: center;
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+// 		border-radius: 15px;
+// 		height: 30px;
+// 		width: 30px;
+// 	}
 
-	.star_rating {
-		font-size:0; letter-spacing:-4px;
+// 	.star_rating {
+// 		font-size:0; letter-spacing:-4px;
 		
-		>a {
-		    font-size:22px;
-		    letter-spacing:0;
-		    display:inline-block;
-		    margin-left:5px;
-		    color:#ccc;
-		    text-decoration:none;
-		}
-		>a:first-child {margin-left:0;}
-		>a.on {color:#FFEB3B;}
+// 		>a {
+// 		    font-size:22px;
+// 		    letter-spacing:0;
+// 		    display:inline-block;
+// 		    margin-left:5px;
+// 		    color:#ccc;
+// 		    text-decoration:none;
+// 		}
+// 		>a:first-child {margin-left:0;}
+// 		>a.on {color:#FFEB3B;}
 
-	}
+// 	}
 
-	.card-course{
-		>ul>li:before{
-			content: "•"; /* Insert content that looks like bullets */
-		    padding-right: 8px;
-		    color: blue; /* Or a color you prefer */
-		}
+// 	.card-course{
+// 		>ul>li:before{
+// 			content: "•"; /* Insert content that looks like bullets */
+// 		    padding-right: 8px;
+// 		    color: blue; /* Or a color you prefer */
+// 		}
 		
-		>ul>li>ul>li:before{
-			content: "•"; /* Insert content that looks like bullets */
-		    margin-left: 16px;
-		    padding-right: 8px;
-		    color: red; /* Or a color you prefer */
-		}
+// 		>ul>li>ul>li:before{
+// 			content: "•"; /* Insert content that looks like bullets */
+// 		    margin-left: 16px;
+// 		    padding-right: 8px;
+// 		    color: red; /* Or a color you prefer */
+// 		}
 
-		ul>li{
-			list-style: none;
-		}
-	}
+// 		ul>li{
+// 			list-style: none;
+// 		}
+// 	}
 
-	.card-map{
-		width: 100%;
-		height: 300px;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: center;
-		background-image: url(../img/osaka_course.png);
-	}
+// 	.card-map{
+// 		width: 100%;
+// 		height: 300px;
+// 		background-repeat: no-repeat;
+// 		background-size: contain;
+// 		background-position: center;
+// 		background-image: url(../img/osaka_course.png);
+// 	}
 
-	.card-summary{
-		position: absolute;
-		bottom: 0px;
-		// background-color: #FF6046;
-		>.summary-point{
-			height: 3.6em;
-			padding-top: 0.6em;
-			padding-left: 2.4em;
-			position: relative;
-			>span{
-				width: 1.6em;
-				height: 1.6em;
-				position: absolute;
-				top: 0.4em;
-				left: 0;
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
-			}
-		}
-		.placeholer{
-			background-image: url(../img/placeholder.png);
-		}
-		.stopwatch{
-			background-image: url(../img/stopwatch.png);
-		}
-		.microphone{
-			background-image: url(../img/microphone.png);
-		}
-		.like{
-			background-image: url(../img/like.png);
-		}
-	}
-}
+// 	.card-summary{
+// 		position: absolute;
+// 		bottom: 0px;
+// 		// background-color: #FF6046;
+// 		>.summary-point{
+// 			height: 3.6em;
+// 			padding-top: 0.6em;
+// 			padding-left: 2.4em;
+// 			position: relative;
+// 			>span{
+// 				width: 1.6em;
+// 				height: 1.6em;
+// 				position: absolute;
+// 				top: 0.4em;
+// 				left: 0;
+// 				background-repeat: no-repeat;
+// 				background-size: cover;
+// 				background-position: center;
+// 			}
+// 		}
+// 		.placeholer{
+// 			background-image: url(../img/placeholder.png);
+// 		}
+// 		.stopwatch{
+// 			background-image: url(../img/stopwatch.png);
+// 		}
+// 		.microphone{
+// 			background-image: url(../img/microphone.png);
+// 		}
+// 		.like{
+// 			background-image: url(../img/like.png);
+// 		}
+// 	}
+// }
 
 
 .mainContent{
 	margin-top: 60px;
 	margin-bottom: 60px;
+
+
+	.carousel-item{
+		height: 200px;
+		background-color: #F1F1F1;
+
+		>img{
+			width: 100px;
+			height: 200px;
+		}
+	}
+
+	.card-section{
+		margin-top: -30px;
+
+		.card{
+			margin-bottom: 20px;
+
+			&:first-of-type{
+				padding-bottom: 2.4em;
+			}
+		}
+
+		.card-title{
+			font-size: 18px;
+		}
+		.card-profile{
+			background-color: black;
+			background-image: url(../img/juddy.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 15px;
+			height: 30px;
+			width: 30px;
+		}
+
+		.star_rating {
+			font-size:0; letter-spacing:-4px;
+			
+			>a {
+			    font-size:22px;
+			    letter-spacing:0;
+			    display:inline-block;
+			    margin-left:5px;
+			    color:#ccc;
+			    text-decoration:none;
+			}
+			>a:first-child {margin-left:0;}
+			>a.on {color:#FFEB3B;}
+
+		}
+
+		.card-course{
+			>ul>li:before{
+				content: "•"; /* Insert content that looks like bullets */
+			    padding-right: 8px;
+			    color: blue; /* Or a color you prefer */
+			}
+			
+			>ul>li>ul>li:before{
+				content: "•"; /* Insert content that looks like bullets */
+			    margin-left: 16px;
+			    padding-right: 8px;
+			    color: red; /* Or a color you prefer */
+			}
+
+			ul>li{
+				list-style: none;
+			}
+		}
+
+		.card-map{
+			width: 100%;
+			height: 300px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			background-image: url(../img/osaka_course.png);
+		}
+
+		.card-summary{
+			position: absolute;
+			bottom: 0px;
+			// background-color: #FF6046;
+			>.summary-point{
+				height: 3.6em;
+				padding-top: 0.6em;
+				padding-left: 2.4em;
+				position: relative;
+				>span{
+					width: 1.6em;
+					height: 1.6em;
+					position: absolute;
+					top: 0.4em;
+					left: 0;
+					background-repeat: no-repeat;
+					background-size: cover;
+					background-position: center;
+				}
+			}
+			.placeholer{
+				background-image: url(../img/placeholder.png);
+			}
+			.stopwatch{
+				background-image: url(../img/stopwatch.png);
+			}
+			.microphone{
+				background-image: url(../img/microphone.png);
+			}
+			.like{
+				background-image: url(../img/like.png);
+			}
+		}
+	}
+
+	
 }
 
 
